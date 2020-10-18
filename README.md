@@ -127,10 +127,17 @@ PASS = dhana123<br>
 
 #### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
 penyelesaian:<br>
-http.request.uri contains pdf
+dengan menggunakan hint, lakukan display filter tcp contains 25:50:44:46
 
 ![10a](https://github.com/asandfghjkl/Jarkom_Modul1_Lapres_A06/blob/main/pics/10a.png)
 
+klik kanan > follow > TCP stream, save as raw "filename.pdf"
+
+![10b](https://github.com/asandfghjkl/Jarkom_Modul1_Lapres_A06/blob/main/pics/10b.png)
+
+open file .pdf yang disimpan
+
+![10c](https://github.com/asandfghjkl/Jarkom_Modul1_Lapres_A06/blob/main/pics/10c.png)
 
 
 
